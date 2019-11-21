@@ -9,8 +9,7 @@ class App extends React.Component {
 
   async getBooks() {
     await axios
-      // This is where the data is hosted
-      .get("https://www.goodreads.com/search.xml?key=Q4uAl7lxzaYA85u59Kzvg&q=Ender%27s+Game")
+      .get("https://tinyurl.com/rfmyk3u")
       .then(response => {
         console.log(response.data)
       }
