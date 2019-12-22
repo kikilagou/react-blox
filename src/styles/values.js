@@ -1,6 +1,5 @@
 export default {
   // Button
-  buttonFont: "0.75em",
   buttonBorderRadius: "0px",
   buttonPadding: "0.25em",
   buttonMargin: "0.25em",
@@ -13,5 +12,7 @@ export default {
   imageWidth: "100px",
 
   // Text
-  fontSize: "1em"
+  smallFont: "0.5em",
+  defaultFont: "1em",
+  largeFont: "1.2em"
 };

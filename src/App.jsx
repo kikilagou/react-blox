@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Button>Simple Button</Button>
+        <Button className="primary">Simple Button</Button>
         <HorizontalLine />
         <Image src="" alt="An image" />
         <br />
