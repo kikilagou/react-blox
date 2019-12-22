@@ -1,38 +1,19 @@
-import React from 'react';
-import './App.css';
-import axios from 'axios'
+import React from "react";
+import "./App.css";
+import { csv2json } from "csv2json";
 
 class App extends React.Component {
-
-  async postBooks() {
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
 
-  async getBooks() {
-    await axios
-      .get("https://tinyurl.com/rfmyk3u")
-      .then(response => {
-        console.log(response.data)
-      }
-      )
-      .catch();
-  }
+  mergeSort(list) {}
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <button onClick={this.getBooks}>click me</button>
-
-
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-              </a>
-        </header>
+        <header className="App-header">Learn React</header>
       </div>
     );
   }
