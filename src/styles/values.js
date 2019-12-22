@@ -7,4 +7,8 @@ export default {
 
   // HorizontalLine
   lineLength: "10%",
+
+  // Image
+  imageHeight: "100px",
+  imageWidth: "100px"
 };

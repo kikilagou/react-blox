@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Button, HorizontalLine } from "./components/atoms";
+import { Button, HorizontalLine, Image } from "./components/atoms";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,7 +14,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Button>Simple Button</Button>
-        <HorizontalLine></HorizontalLine>
+        <HorizontalLine />
+        <Image src="" alt="An image" />
       </div>
     );
   }
