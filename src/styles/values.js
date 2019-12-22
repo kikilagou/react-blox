@@ -5,7 +5,7 @@ export default {
   buttonMargin: "0.5em",
 
   // HorizontalLine
-  lineLength: "100px",
+  lineLength: "10%",
 
   // Image
   imageHeight: "100px",
