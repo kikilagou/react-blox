@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Button, HorizontalLine, Image } from "./components/atoms";
+import { Button, HorizontalLine, Image, Link } from "./components/atoms";
 
 class App extends React.Component {
   constructor(props) {
@@ -16,6 +16,8 @@ class App extends React.Component {
         <Button>Simple Button</Button>
         <HorizontalLine />
         <Image src="" alt="An image" />
+        <br />
+        <Link href="https://google.com">this is a link</Link>
       </div>
     );
   }

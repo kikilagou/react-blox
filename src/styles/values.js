@@ -10,5 +10,8 @@ export default {
 
   // Image
   imageHeight: "100px",
-  imageWidth: "100px"
+  imageWidth: "100px",
+
+  // Text
+  fontSize: "1em"
 };
