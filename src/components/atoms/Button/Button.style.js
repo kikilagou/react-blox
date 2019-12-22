@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import colors from "../../../styles/colors";
-import values from "../../../styles/values";
+import theme from "../../../styles/theme";
 
 const ButtonWrapper = styled.button`
-  background-color: ${colors.white};
-  border-radius: ${values.buttonBorderRadius};
-  color: ${colors.black};
-  font-size: ${values.font};
-  margin: ${values.buttonMargin};
-  padding: ${values.buttonPadding};
+  background-color: ${theme.colors.white};
+  border-radius: ${theme.values.buttonBorderRadius};
+  color: ${theme.colors.black};
+  font-size: ${theme.values.buttonFont};
+  margin: ${theme.values.buttonMargin};
+  padding: ${theme.values.buttonPadding};
 `;
 
 export { ButtonWrapper };
