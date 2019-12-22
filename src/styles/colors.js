@@ -49,5 +49,12 @@ export default {
   pink2: "#e30c5f",
   pink3: "#f5498b",
   pink4: "#f881af",
-  pink5: "#fccbde"
+  pink5: "#fccbde",
+
+  // Cobalt
+  cobalt1: "#006384",
+  cobalt2: "#0080ab",
+  cobalt3: "#009dd2",
+  cobalt4: "#00bbf9",
+  cobalt5: "#bfefff"
 };

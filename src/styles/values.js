@@ -1,11 +1,11 @@
 export default {
   // Button
   buttonBorderRadius: "0px",
-  buttonPadding: "0.25em",
-  buttonMargin: "0.25em",
+  buttonPadding: "0.5em",
+  buttonMargin: "0.5em",
 
   // HorizontalLine
-  lineLength: "10%",
+  lineLength: "100px",
 
   // Image
   imageHeight: "100px",
@@ -13,6 +13,6 @@ export default {
 
   // Text
   smallFont: "0.5em",
-  defaultFont: "1em",
+  defaultFont: "0.75em",
   largeFont: "1.2em"
 };

@@ -2,13 +2,13 @@ import styled from "styled-components";
 import theme from "../../../styles/theme";
 
 const ButtonWrapper = styled.button`
-  background: ${theme.colors.white};
+  background: ${theme.colors.gray5};
   color: ${theme.colors.black};
   cursor: pointer;
   font-size: ${theme.values.defaultFont};
   margin: ${theme.values.buttonMargin};
   padding: ${theme.values.buttonPadding};
-  border: None;
+  border: 1px solid ${theme.colors.gray4};
 
   /* Style sub-classes */
   /* Intent */
@@ -34,7 +34,7 @@ const ButtonWrapper = styled.button`
   }
   &.info {
     color: ${theme.colors.white};
-    background-color: ${theme.colors.cobalt2};
+    background-color: ${theme.colors.cobalt3};
   }
   &.light {
     color: ${theme.colors.black};
@@ -62,17 +62,14 @@ const ButtonWrapper = styled.button`
   &.loading {
   }
   &.outline {
-    color: #ddd;
-    background-color: #aaa;
-    // border: 1px solid #aaa;
+    // border and text colored only
   }
   &.minimal {
     color: #ddd;
     background-color: #aaa;
-    // border: 1px solid #aaa;
   }
   &.rounded {
-    border-radius: 5px;
+    border-radius: 3px;
   }
 `;
 
