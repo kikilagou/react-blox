@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Button } from "./components/atoms";
+import { Button, HorizontalLine } from "./components/atoms";
 
 class App extends React.Component {
   constructor(props) {
@@ -13,7 +13,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Button class="simple">Simple Button</Button>
+        <Button>Simple Button</Button>
+        <HorizontalLine></HorizontalLine>
       </div>
     );
   }
