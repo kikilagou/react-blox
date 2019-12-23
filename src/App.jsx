@@ -5,8 +5,7 @@ import {
   HorizontalLine,
   Image,
   Link,
-  PlainText,
-  Heading
+  PlainText
 } from "./components/atoms";
 
 class App extends React.Component {
@@ -25,8 +24,7 @@ class App extends React.Component {
         <Image src="" alt="An image" />
         <br />
         <Link href="https://google.com">this is a link</Link>
-        <PlainText>this is a text</PlainText>
-        <Heading Htype="h1">hi</Heading>
+        <PlainText>this is text</PlainText>
       </div>
     );
   }
