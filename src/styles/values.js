@@ -16,8 +16,8 @@ export default {
   lineLength: "10%",
 
   // Image
-  imageHeight: "100px",
-  imageWidth: "100px",
+  imageHeight: "10%",
+  imageWidth: "10%",
 
   // Text
   smallFont: "0.1em",
