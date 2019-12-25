@@ -6,7 +6,8 @@ import {
   Image,
   Link,
   PlainText,
-  Checkbox
+  Checkbox,
+  Radio
 } from "./components/atoms";
 
 class App extends React.Component {
@@ -27,6 +28,8 @@ class App extends React.Component {
         <Link href="https://google.com">this is a link</Link>
         <PlainText>this is text</PlainText>
         <Checkbox />
+        hi
+        <Radio />
         hi
       </div>
     );
