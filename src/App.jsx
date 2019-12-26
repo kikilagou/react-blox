@@ -8,9 +8,10 @@ import {
   PlainText,
   Checkbox,
   Radio,
-  SelectOption
+  SelectOption,
+  ListItem
 } from "./components/atoms";
-import { Select } from "./components/molecules";
+import { Select, List } from "./components/molecules";
 
 class App extends React.Component {
   constructor(props) {
@@ -37,6 +38,10 @@ class App extends React.Component {
           <SelectOption value="one">one</SelectOption>
           <SelectOption selected="true">two</SelectOption>
         </Select>
+        <List>
+          <ListItem>one</ListItem>
+          <ListItem>two</ListItem>
+        </List>
       </div>
     );
   }
