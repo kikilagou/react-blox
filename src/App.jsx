@@ -34,7 +34,7 @@ class App extends React.Component {
         <Radio />
         hi
         <Select>
-          <SelectOption>one</SelectOption>
+          <SelectOption value="one">one</SelectOption>
           <SelectOption selected="true">two</SelectOption>
         </Select>
       </div>
