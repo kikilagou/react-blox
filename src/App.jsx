@@ -36,7 +36,8 @@ class App extends React.Component {
         <Button className="light rounded">Light Button</Button>
         <Button className="dark rounded">Dark Button</Button>
         <h3>Image</h3>
-        <Image src="" alt="An image" />
+        <Image src="" alt="An image" /> 
+        {/* investigate loading problem */}
         <br />
         <h3>Anchor Tag</h3>
         <Link href="https://google.com">this is a link</Link>
