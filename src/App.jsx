@@ -59,7 +59,7 @@ class App extends React.Component {
           <ListItem>two</ListItem>
         </List>
         <h3>Horrizontal Line</h3>
-        <HorizontalLine className="fill" />
+        <HorizontalLine className="half" />
       </div>
     );
   }
