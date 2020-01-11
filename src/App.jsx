@@ -24,7 +24,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Button className="success rounded">Simple Button</Button>
+        <h1>This is the React Blox Demo Page!</h1>
+        <h2>Components</h2>
+        <h3>Button</h3>
+        <Button className="success rounded">Success Button</Button>
+        <Button className="primary rounded">Primary Button</Button>
+        <Button className="secondary rounded">Secondary Button</Button>
         <HorizontalLine className="fill" />
         <Image src="" alt="An image" />
         <br />
