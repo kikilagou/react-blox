@@ -16,25 +16,49 @@ const ButtonWrapper = styled.button`
     color: ${theme.colors.white};
     background: ${theme.colors.blue2};
   }
+  &.primary:active {
+    color: ${theme.colors.white};
+    background: ${theme.colors.blue1};
+  }
   &.secondary {
     color: ${theme.colors.white};
     background: ${theme.colors.gray2};
+  }
+  &.secondary:active {
+    color: ${theme.colors.white};
+    background: ${theme.colors.gray1};
   }
   &.success {
     color: ${theme.colors.white};
     background-color: ${theme.colors.green2};
   }
+  &.success:active {
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.green1};
+  }
   &.danger {
     color: ${theme.colors.white};
-    background-color: ${theme.colors.blue2};
+    background-color: ${theme.colors.red2};
+  }
+  &.danger:active {
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.red1};
   }
   &.warning {
     color: ${theme.colors.white};
     background-color: ${theme.colors.yellow2};
   }
+  &.warning:active {
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.yellow1};
+  }
   &.info {
     color: ${theme.colors.white};
     background-color: ${theme.colors.cobalt3};
+  }
+  &.info:active {
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.cobalt2};
   }
   &.light {
     color: ${theme.colors.black};
@@ -42,7 +66,7 @@ const ButtonWrapper = styled.button`
   }
   &.dark {
     color: ${theme.colors.white};
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.black};
   }
   &.link {
     color: ${theme.colors.blue1};

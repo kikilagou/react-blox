@@ -27,9 +27,14 @@ class App extends React.Component {
         <h1>This is the React Blox Demo Page!</h1>
         <h2>Components</h2>
         <h3>Button</h3>
-        <Button className="success rounded">Success Button</Button>
         <Button className="primary rounded">Primary Button</Button>
         <Button className="secondary rounded">Secondary Button</Button>
+        <Button className="success rounded">Success Button</Button>
+        <Button className="warning rounded">Warning Button</Button>
+        <Button className="danger rounded">Danger Button</Button>
+        <Button className="info rounded">Info Button</Button>
+        <Button className="light rounded">Light Button</Button>
+        <Button className="dark rounded">Dark Button</Button>
         <HorizontalLine className="fill" />
         <Image src="" alt="An image" />
         <br />
