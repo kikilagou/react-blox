@@ -35,23 +35,31 @@ class App extends React.Component {
         <Button className="info rounded">Info Button</Button>
         <Button className="light rounded">Light Button</Button>
         <Button className="dark rounded">Dark Button</Button>
-        <HorizontalLine className="fill" />
+        <h3>Image</h3>
         <Image src="" alt="An image" />
         <br />
+        <h3>Anchor Tag</h3>
         <Link href="https://google.com">this is a link</Link>
+        <h3>Text</h3>
         <PlainText>this is text</PlainText>
+        <h3>Checkbox</h3>
         <Checkbox />
         hi
+        <h3>Radio</h3>
         <Radio />
         hi
+        <h3>Select</h3>
         <Select>
           <SelectOption value="one">one</SelectOption>
           <SelectOption selected="true">two</SelectOption>
         </Select>
+        <h3>List</h3>
         <List>
           <ListItem>one</ListItem>
           <ListItem>two</ListItem>
         </List>
+        <h3>Horrizontal Line</h3>
+        <HorizontalLine className="fill" />
       </div>
     );
   }
