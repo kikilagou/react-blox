@@ -36,7 +36,7 @@ class App extends React.Component {
         <Button className="light rounded">Light Button</Button>
         <Button className="dark rounded">Dark Button</Button>
         <h3>Image</h3>
-        <Image src="" alt="An image" /> 
+        <Image src="" alt="An image" />
         {/* investigate loading problem */}
         <br />
         <h3>Anchor Tag</h3>
@@ -44,11 +44,15 @@ class App extends React.Component {
         <h3>Text</h3>
         <PlainText>this is text</PlainText>
         <h3>Checkbox</h3>
+        <Checkbox checked />
+        on
         <Checkbox />
-        hi
+        off
         <h3>Radio</h3>
         <Radio />
         hi
+        <Radio />
+        bye
         <h3>Select</h3>
         <Select>
           <SelectOption value="one">one</SelectOption>
